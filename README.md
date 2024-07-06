@@ -17,7 +17,7 @@ const data = {
     mintAddress: "14uNeiwwemx6iEDcNfHrmdLuM6p3bTNzABaGjPggfuCk", // token address
     amount: 0.01, // In solana
     slippageDecimal: 0.02, // Slippage in percentage, 0.02 mean 2% slippage
-    priorityFee: 0.1, // by default it uses 0.000005 solana per transaction, if set to 0.1 then total transaction would be 0.000005 + 0.1 solana
+    priorityFee: 0, // by default it uses 0.000005 solana per transaction, if set to 0.1 then total transaction would be 0.000005 + 0.1 solana
     secretKeypair: "xxx"
 };
 
@@ -59,7 +59,7 @@ const data = {
     mintAddress: "14uNeiwwemx6iEDcNfHrmdLuM6p3bTNzABaGjPggfuCk", // token address
     sellPercent: 100, // In percentage 100 means 100%
     slippageDecimal: 0.02, // Slippage in percentage, 0.02 mean 2% slippage
-    priorityFee: 0.1, // by default it uses 0.000005 solana per transaction, if set to 0.1 then total transaction would be 0.000005 + 0.1 solana
+    priorityFee: 0, // by default it uses 0.000005 solana per transaction, if set to 0.1 then total transaction would be 0.000005 + 0.1 solana
     secretKeypair: "xxx"
 };
 
@@ -102,7 +102,7 @@ data = {
     "mintAddress": "14uNeiwwemx6iEDcNfHrmdLuM6p3bTNzABaGjPggfuCk",
     "amount": 0.01, # In solana
     "slippageDecimal": 0.02, # Slippage in percentage, 0.02 mean 2% slippage
-    "priorityFee": 0.1, # by default it uses 0.000005 solana per transaction, if set to 0.1 then total transaction would be 0.000005 + 0.1 solana
+    "priorityFee": 0, # by default it uses 0.000005 solana per transaction, if set to 0.1 then total transaction would be 0.000005 + 0.1 solana
     "secretKeypair": "xxx"
 }
 
